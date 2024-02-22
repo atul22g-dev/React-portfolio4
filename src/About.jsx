@@ -7,7 +7,7 @@ const About = () => {
 
   useEffect(() => {
     udpateAboutPage();
-  }, []);
+  });
 
   return <HeroSection />;
 };
